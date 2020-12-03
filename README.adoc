@@ -5,7 +5,7 @@
 :sectlinks:
 :toclevels: 1
 ifndef::backend-pdf[]
-:toc-title: pass:[<h2>Table of Contents</h2>]
+:toc-title: pass:[<h2>İçindekiler</h2>]
 endif::[]
 :source-highlighter: rouge
 
@@ -13,12 +13,20 @@ endif::[]
 
 [quote, Officer Alex J. Murphy / RoboCop]
 ____
-Role models are important.
+Rol modeller önemlidir.
 ____
 
 ifdef::env-github[]
-TIP: You can find a beautiful version of this guide with much improved navigation at https://guide.clojure.style.
+TIP: Bu rehberin daha gelişmiş navigasyonlu güzel bir halini https://guide.clojure.style adresinde bulabilirsiniz..
 endif::[]
+
+##--
+Bu Clojure stil kılavuzu, gerçek dünyadaki Clojure programcılarının diğer
+gerçek dünya Clojure programcıları tarafından yönetilebilen kod
+yazabilmeleri için en iyi pratikleri önerir.
+Gerçek dünya kullanımını yansıtan bir stil kılavuzu kullanılır ve ne kadar
+iyi olursa olsun, risklerin hiç kullanılmamasına yardımcı olması beklenen
+insanlar tarafından reddedilen bir ideale bağlı bir stil kılavuzu.
 
 This Clojure style guide recommends best practices so that real-world Clojure
 programmers can write code that can be maintained by other real-world Clojure
@@ -26,9 +34,22 @@ programmers. A style guide that reflects real-world usage gets used, and a
 style guide that holds to an ideal that has been rejected by the people it is
 supposed to help risks not getting used at all -- no matter how good it is.
 
+##--
+Kılavuz, ilgili kuralları birkaç bölümüne ayırmıştır. Kuralların arkasına
+mantığı eklemeye çalıştım (eğer yoksa, çok bariz olduğu varsayımıyla
+eklenmemiştir).
+
 The guide is separated into several sections of related rules. I've
 tried to add the rationale behind the rules (if it's omitted, I've
 assumed that it's pretty obvious).
+
+##--
+I didn't come up with all the rules out of nowhere; they are mostly
+based on my extensive career as a professional software engineer,
+feedback and suggestions from members of the Clojure community, and
+various highly regarded Clojure programming resources, such as
+http://www.clojurebook.com/["Clojure Programming"]
+and http://joyofclojure.com/["The Joy of Clojure"].
 
 I didn't come up with all the rules out of nowhere; they are mostly
 based on my extensive career as a professional software engineer,
